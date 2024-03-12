@@ -1,0 +1,41 @@
+.introduction {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  font-weight: lighter;
+  font-size: 40px;
+  font-family: "Rubik Glitch", system-ui;
+  color: #304852;
+}
+
+.pagination-container {
+  margin-bottom: 10px;
+}
+.pagination-button {
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+}
+
+.pagination-links {
+  margin: 5px;
+}
+
+.stretch-button {
+  padding: 14px 30px 14px 30px;
+  border: none;
+  border-radius: none;
+  background-color: #00d084;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: padding 0.25s;
+}
+
+.stretch-button:hover {
+  background-color: #00ab44;
+  padding: 14px 50px 64px 30px;
+}
+
+.stretch-button:active {
+  background-color: #00d084;
+}
